@@ -67,3 +67,40 @@ footer {
   background-color: #1f2937;
   color: white;
 }
+
+/* Projects tiles */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 10px;
+}
+
+.project-tile {
+  background: linear-gradient(180deg, #ffffff, #f8fafc);
+  border: 1px solid rgba(30,64,175,0.06);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(16,24,40,0.04);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-tile:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(16,24,40,0.08);
+}
+
+.project-title {
+  font-size: 18px;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.project-desc {
+  color: #334155;
+  font-size: 14px;
+  margin-top: auto;
+}

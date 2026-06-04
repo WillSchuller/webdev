@@ -60,6 +60,10 @@ section h2 {
   border-radius: 8px;
   font-weight: bold;
 }
+  .skill-card i {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
 
 footer {
   text-align: center;
